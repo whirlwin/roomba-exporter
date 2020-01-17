@@ -1,0 +1,21 @@
+{
+  "name": "irobot-exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "h1": "USERNAME=3144460061717690 PASSWORD=:1:1575191296:Mw8pqwGOnYZPEsox ROOMBA_IP_ADDRESS=192.168.86.120 nodemon index.js",
+    "h2": "USERNAME=3192801C31919780 PASSWORD=:1:1575151069:Tfn0EDj9IAtpko13 ROOMBA_IP_ADDRESS=192.168.86.120 nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dorita980": "^3.1.7",
+    "prom-client": "^11.5.3"
+  }
+}
