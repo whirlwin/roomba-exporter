@@ -29,7 +29,6 @@ PORT=<Port for endpoint exposing metrics> # Defaults to 7000
 ````
 
 2. Run as a standalone container or a sidecar in Kubernetes
-TODO quay
 ```
 docker run \
     -p 7000:7000 \
